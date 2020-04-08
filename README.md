@@ -11,4 +11,4 @@ Here's a broad overview of what each file does:
 - `solver` is the driver
 - `run.sh` runs `solver` with the argument it is provided
 
-The usage of the `test` directory is explained in `tester.py`.
+The usage of the `test` directory is explained in `tester.py`. In most cases, running a file directly will run the tests inside of it.
