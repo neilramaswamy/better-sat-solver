@@ -13,7 +13,7 @@ SAT_TESTS_PATH = "./tests/sat/"
 # consistently classify (AND verify!) SAT cases and simply classify UNSAT cases, we probably have a working
 # implementation.
 
-# Some of the formulas in ./tests/ were generated using the `cnfgen` Python library via the command line. These are
+# Some of the formulas in ./tests/sat/ were generated using the `cnfgen` Python library via the command line. These are
 # pre-generated so that I didn't have to worry about giving pip instructions to you, the grader, or automating
 # dependency installation on department machines.
 
@@ -60,5 +60,7 @@ def verify_assignment(assignments: Mapping[int, bool], formula: List[Clause]) ->
 
 
 if __name__ == "__main__":
+    print("Starting verification of UNSAT instances...")
     verify_unsat()
+    print("Starting verification of SAT instances...")
     verify_sat()
