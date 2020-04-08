@@ -76,4 +76,3 @@ def do_dpll(path: str) -> None:
 
 if __name__ == "__main__":
     do_dpll(sys.argv[1])
-    # do_dpll("/Users/neilramaswamy/PycharmProjects/sat-solver/tests/ree.cnf")

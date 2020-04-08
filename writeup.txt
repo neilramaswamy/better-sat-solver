@@ -1,0 +1,3 @@
+Although my SAT solver gives output that matches the DIMAC standard, Forge reported that my solver output was invalid.
+I compared my output for `simple.cnf`, the example given on the assignment handout, to the anwer given on the handout,
+and they matched exactly. As such, I believe that this is indeed an error on Forge's part.
